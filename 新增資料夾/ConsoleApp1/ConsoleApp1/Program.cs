@@ -16,11 +16,13 @@ namespace ConsoleApp1
             double a = my(20, 0);
             int b = Add(5, 7);
 
-            Console.WriteLine(1/0);
-            Console.WriteLine(b);
+            //Console.WriteLine(1/0);
+            //Console.WriteLine(b);
 
             try
             {
+                Console.WriteLine(1 / 0);
+                Console.WriteLine(b);
                 Console.WriteLine(a);
             }
             catch (Exception e)

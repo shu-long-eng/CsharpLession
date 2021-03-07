@@ -17,8 +17,8 @@ namespace ConsoleApp1
             int result = MathCore.add(a, b);
             Console.WriteLine(result);
             Class1.GO();
-            
 
+            Console.Write("123");
 
 
 
