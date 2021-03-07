@@ -12,6 +12,7 @@ namespace ConsoleApp1
         public static void GO()
         {
             Console.WriteLine(MathCore.add(1, 3));
+            Console.WriteLine("123111");
         }
     }
 }
