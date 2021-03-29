@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_20210328上課內容.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            123
+        </div>
+        <div>
+            <asp:PlaceHolder ID="plc1" runat="server">
+                <a href="WebForm5.aspx">登出</a>
+            </asp:PlaceHolder>
+            <asp:PlaceHolder ID="plc2" runat="server" Visible="false">
+            <asp:Literal ID="Literal2" runat="server"></asp:Literal>
+            <asp:Button ID="btnLogout" runat="server" Text="Logout" Onclick="btnLogout_Click" />
+        </asp:PlaceHolder>
+        </div>
+       
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
